@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: wechat-server
+server:
+    port: 9000
