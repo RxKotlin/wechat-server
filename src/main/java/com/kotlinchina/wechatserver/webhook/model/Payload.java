@@ -3,8 +3,8 @@ package com.kotlinchina.wechatserver.webhook.model;
 import com.kotlinchina.wechatserver.authorization.model.User;
 
 public class Payload {
-  private Action action;
-  private User user;
+  private Action action = Action.ON_CONNECT;
+  private User user = new User();
 
   public Action getAction() {
     return action;

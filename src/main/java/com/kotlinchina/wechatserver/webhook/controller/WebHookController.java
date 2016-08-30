@@ -22,7 +22,7 @@ public class WebHookController {
       return "{error: invalid token}";
     }
 
-    return String.format("{\"action\": \"%s\"}", payload.getAction());
+    return String.format("{\"action\": \"%s\", \"username\": \"%s\"}", payload.getAction(), payload.getUser().getUsername());
   }
 }
 
