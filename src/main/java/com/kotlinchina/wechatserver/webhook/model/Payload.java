@@ -22,4 +22,3 @@ public class Payload {
     this.user = user;
   }
 }
-

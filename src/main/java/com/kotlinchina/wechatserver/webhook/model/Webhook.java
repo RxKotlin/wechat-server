@@ -20,4 +20,3 @@ public class Webhook {
     this.secret = secret;
   }
 }
-
