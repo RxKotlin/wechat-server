@@ -9,4 +9,3 @@ public enum Action {
     this.value = value;
   }
 }
-
